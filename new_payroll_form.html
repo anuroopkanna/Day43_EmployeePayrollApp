@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
         <title>Employee Payroll Form</title>
         <link rel="stylesheet" href="./new_payroll_form.css">
     </head>
@@ -25,8 +26,55 @@
                     <label class="label text" for="name">Name</label>
                     <input class="input" type="text" id="name" name="name" placeholder="Enter Your name " required>
                 </div>
+                <div class="row-content">
+                    <label class="label text"for="profile">Profile image </label>
+                    <div class="profile-radio-content">
+                        <label>
+                            <input type="radio" name="profile" id="profile1" value="./Images/Ellipse 1.png" required>
+                            <img class="profile" id="image1" src="./Images/Ellipse 1.png" width="50%" height="40px">
+                        </label>
+                    </div>
+                    <div class="profile-radio-content">
+                        <label>
+                            <input type="radio" name="profile" id="profile1" value="./Images/Ellipse -2.png" required>
+                            <img class="profile" id="image1" src="./Images/Ellipse -2.png" width="50%" height="40px">
+                        </label>
+                    </div>
+                    <div class="profile-radio-content">
+                        <label>
+                            <input type="radio" name="profile" id="profile1" value="./Images/Ellipse -3.png" required>
+                            <img class="profile" id="image1" src="./Images/Ellipse -3.png" width="50%" height="40px">
+                        </label>
+                    </div>
+                    <div class="profile-radio-content">
+                        <label>
+                            <input type="radio" name="profile" id="profile1" value="../EmployeePayrollHTML/img/img4.jpg" required>
+                            <img class="profile" id="image1" src="./Images/Ellipse -4.png" width="50%" height="40px">
+                        </label>
+                    </div>
+                </div>
+                <div class="row-content">
+                    <label class="label text" for="gender">Gender</label>
+                    <div>
+                        <input type="radio" id="Male" name="gender" value="Male">
+                        <label type="text" for="Male">Male</label>
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        <label type="text" for="Female">Female</label>
+                    </div>
+                </div>
+                <div class="row-content">
+                    <label class="label text" for="department">Department</label>
+                    <div>
+                        <input type="checkbox" type="checkbox" name="Hr" id="Hr" value="Hr">
+                        <label type="text" for="Hr">HR</label>
+                        <input type="checkbox" type="checkbox" name="Sales" id="Sales" value="Sales">
+                        <label type="text" for="Sales">Sales</label>
+                        <input type="checkbox" type="checkbox" name="Finance" id="Finance" value="Finance">
+                        <label type="text" for="Finance">Finance</label>
+                    </div>
+                </div>
             </form>
-    
+
         </div>
     </body>
 </html>
