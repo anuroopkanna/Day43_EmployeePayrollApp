@@ -67,6 +67,7 @@ toString(){
     ", department="+ this.department + ", salary="+this.salary+ ", startDate=" +empDate+", note="+this.note;
 }
 }
+
 const salary = document.querySelector('#salary');
 const output = document.querySelector('.salary-output');
 output.textContent =salary.value;
