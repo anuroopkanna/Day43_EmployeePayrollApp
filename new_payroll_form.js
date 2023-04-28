@@ -77,4 +77,6 @@ salary.addEventListener('input',function(){
 
 imgclicked=()=>{
     console.log("image clicked!!!!")
+
+    console.log("image clicked!!!!")
 }
